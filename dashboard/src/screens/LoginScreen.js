@@ -4,7 +4,7 @@ import Loading from "../components/LoadingError/Loading";
 import Toast from "../components/LoadingError/Toast";
 import { login } from "../Redux/Actions/userActions";
 import Message from "./../components/LoadingError/Error";
-
+import Header from "./Header";
 const Login = ({ history }) => {
   window.scrollTo(0, 0);
   const [email, setEmail] = useState("");

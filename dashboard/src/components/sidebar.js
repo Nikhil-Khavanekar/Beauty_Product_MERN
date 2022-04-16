@@ -6,14 +6,16 @@ const Sidebar = () => {
     <div>
       <aside className="navbar-aside" id="offcanvas_aside">
         <div className="aside-top">
-          <Link to="/" className="brand-wrap">
-            <img
-              src="/images/logo.png"
-              style={{ height: "46" }}
-              className="logo"
-              alt="Ecommerce dashboard template"
-            />
-          </Link>
+          <div>
+            <Link to="/" className="brand-wrap">
+              <img
+                src="/images/logo.png"
+                style={{ height: "46" }}
+                className="logo"
+                alt="Rupali herbal"
+              />
+            </Link>
+          </div>
           <div>
             <button className="btn btn-icon btn-aside-minimize">
               <i className="text-muted fas fa-stream"></i>
@@ -54,7 +56,7 @@ const Sidebar = () => {
                 <span className="text">Add product</span>
               </NavLink>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <NavLink
                 activeClassName="active"
                 className="menu-link"
@@ -63,7 +65,7 @@ const Sidebar = () => {
                 <i className="icon fas fa-list"></i>
                 <span className="text">Categories</span>
               </NavLink>
-            </li>
+            </li> */}
             <li className="menu-item">
               <NavLink
                 activeClassName="active"
@@ -84,7 +86,7 @@ const Sidebar = () => {
                 <span className="text">Users</span>
               </NavLink>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <NavLink
                 activeClassName="active"
                 className="menu-link disabled"
@@ -93,9 +95,9 @@ const Sidebar = () => {
                 <i className="icon fas fa-store-alt"></i>
                 <span className="text">Sellers</span>
               </NavLink>
-            </li>
+            </li> */}
 
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <NavLink
                 activeClassName="active"
                 className="menu-link disabled"
@@ -104,7 +106,7 @@ const Sidebar = () => {
                 <i className="icon fas fa-usd-circle"></i>
                 <span className="text">Transactions</span>
               </NavLink>
-            </li>
+            </li> */}
           </ul>
           <br />
           <br />
